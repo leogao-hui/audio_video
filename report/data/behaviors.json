@@ -1,0 +1,385 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录",
+    "children" : [ {
+      "name" : "这是一个测试正常登录的case",
+      "children" : [ {
+        "name" : "test_normal_login",
+        "uid" : "36134eb2a31caf48",
+        "parentUid" : "55a952fef26139a0b61d658b2abd3c1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577176719048,
+          "stop" : 1577176721829,
+          "duration" : 2781
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normal_login",
+        "uid" : "e856db472317dec1",
+        "parentUid" : "55a952fef26139a0b61d658b2abd3c1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578035859516,
+          "stop" : 1578035861445,
+          "duration" : 1929
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55a952fef26139a0b61d658b2abd3c1f"
+    }, {
+      "name" : "这是一个测试账号错误登录的case",
+      "children" : [ {
+        "name" : "test_account_wrong_login",
+        "uid" : "c476126fd3cdadfd",
+        "parentUid" : "0ab93c72ed351bd942333163410337ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577176724554,
+          "stop" : 1577176727350,
+          "duration" : 2796
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_account_wrong_login",
+        "uid" : "e6b10654c1fe84d1",
+        "parentUid" : "0ab93c72ed351bd942333163410337ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578035866626,
+          "stop" : 1578035868967,
+          "duration" : 2341
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ab93c72ed351bd942333163410337ac"
+    } ],
+    "uid" : "6e12e06fb17fec92464fd1fd24bca881"
+  }, {
+    "name" : "成员管理",
+    "children" : [ {
+      "name" : "hhhh",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "156fff35ed678ec",
+        "parentUid" : "e008346bd9766866f74a53e60904bbbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577257868862,
+          "stop" : 1577257870508,
+          "duration" : 1646
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e008346bd9766866f74a53e60904bbbe"
+    }, {
+      "name" : "这是一个测试正常新增的case",
+      "children" : [ {
+        "name" : "test_normal_login",
+        "uid" : "4eb5ac61681e68e3",
+        "parentUid" : "3a938088910a682e605a78051601125f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577259107245,
+          "stop" : 1577259110336,
+          "duration" : 3091
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a938088910a682e605a78051601125f"
+    }, {
+      "name" : "这是一个测试修改用户名字账号的case",
+      "children" : [ {
+        "name" : "test_modify_",
+        "uid" : "6c578f98946bfcb5",
+        "parentUid" : "3623bcd2e1ceefef14d3ae1bec812bbe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577260750009,
+          "stop" : 1577260750009,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3623bcd2e1ceefef14d3ae1bec812bbe"
+    } ],
+    "uid" : "f7a655af40ad79b56b018580d56baa3a"
+  }, {
+    "name" : "成员管理,修改人员",
+    "children" : [ {
+      "name" : "这是一个修改人员名字，账号的case",
+      "children" : [ {
+        "name" : "test_modify_",
+        "uid" : "a3fa043b9dd1aac5",
+        "parentUid" : "fe97e098180dd84d6700b4dd32bf0704",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577326575506,
+          "stop" : 1577326595803,
+          "duration" : 20297
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_modify_user",
+        "uid" : "d84d6db83f20fc20",
+        "parentUid" : "fe97e098180dd84d6700b4dd32bf0704",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029132578,
+          "stop" : 1578029136494,
+          "duration" : 3916
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe97e098180dd84d6700b4dd32bf0704"
+    } ],
+    "uid" : "7ad7bdf6ae3c6b87eb6058b2191a2903"
+  }, {
+    "name" : "设备管理",
+    "children" : [ {
+      "name" : "这是一个测试正常新增设备的case",
+      "children" : [ {
+        "name" : "test_normal_add_user",
+        "uid" : "3f4577f8ee1ed16",
+        "parentUid" : "7c81ba30c5caba2929b2e3659ba978d2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577414285591,
+          "stop" : 1577414294102,
+          "duration" : 8511
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normal_add_device",
+        "uid" : "709034368646e1a6",
+        "parentUid" : "7c81ba30c5caba2929b2e3659ba978d2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577697339045,
+          "stop" : 1577697339045,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normal_add_device",
+        "uid" : "cfb676b2c2e447a0",
+        "parentUid" : "7c81ba30c5caba2929b2e3659ba978d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029015158,
+          "stop" : 1578029018463,
+          "duration" : 3305
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c81ba30c5caba2929b2e3659ba978d2"
+    }, {
+      "name" : "这是一个测试设备名称必填项的case",
+      "children" : [ {
+        "name" : "test_device_name_mandatory",
+        "uid" : "2e78202d48b066ab",
+        "parentUid" : "b410d8c0e4f604109365ac7a6ae883df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029024572,
+          "stop" : 1578029027715,
+          "duration" : 3143
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b410d8c0e4f604109365ac7a6ae883df"
+    }, {
+      "name" : "这是一个测试设备ip必填项的case",
+      "children" : [ {
+        "name" : "test_device_ip_mandatory",
+        "uid" : "a70e8ed92d896518",
+        "parentUid" : "e55eb885ddcb9bfc158bc635c86315bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029033641,
+          "stop" : 1578029034719,
+          "duration" : 1078
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e55eb885ddcb9bfc158bc635c86315bb"
+    }, {
+      "name" : "这是一个测试设备生产厂家必填的case",
+      "children" : [ {
+        "name" : "test_manufacturer_mandatory",
+        "uid" : "3f98886447e88c63",
+        "parentUid" : "cf0eb70d90ff530475db876866893248",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029041108,
+          "stop" : 1578029046539,
+          "duration" : 5431
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf0eb70d90ff530475db876866893248"
+    } ],
+    "uid" : "6519274adc791cb053984c148aaad46a"
+  }, {
+    "name" : "修改设备",
+    "children" : [ {
+      "name" : "这是一个修改设备名字的case",
+      "children" : [ {
+        "name" : "test_modify_device_name",
+        "uid" : "f9205f7923ab2d49",
+        "parentUid" : "3e80d6fb12ea4f597b4c9269e46669ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577697343994,
+          "stop" : 1577697343994,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_modify_device_name",
+        "uid" : "353eb3aea1700034",
+        "parentUid" : "3e80d6fb12ea4f597b4c9269e46669ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029055629,
+          "stop" : 1578029057856,
+          "duration" : 2227
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e80d6fb12ea4f597b4c9269e46669ba"
+    }, {
+      "name" : "这是一个修改设备ip的case",
+      "children" : [ {
+        "name" : "test_modify_device_ip",
+        "uid" : "8bee25a3f3ddd243",
+        "parentUid" : "29da4a5f22bf53abcaf59fc0c8ef61c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577697346748,
+          "stop" : 1577697346748,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_modify_device_ip",
+        "uid" : "3fd0d58dbd99aafb",
+        "parentUid" : "29da4a5f22bf53abcaf59fc0c8ef61c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029067407,
+          "stop" : 1578029069670,
+          "duration" : 2263
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29da4a5f22bf53abcaf59fc0c8ef61c8"
+    }, {
+      "name" : "这是一个修改设备生产厂家的case",
+      "children" : [ {
+        "name" : "test_modify_manufacturer",
+        "uid" : "e92bcaecd2649487",
+        "parentUid" : "0f4b9aef91df8632df55f38b8eee29ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577697347890,
+          "stop" : 1577697347890,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_modify_manufacturer",
+        "uid" : "ddc290c64a045bad",
+        "parentUid" : "0f4b9aef91df8632df55f38b8eee29ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029077037,
+          "stop" : 1578029079271,
+          "duration" : 2234
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f4b9aef91df8632df55f38b8eee29ea"
+    }, {
+      "name" : "这个一个修改设备名字，ip，生产厂家的case",
+      "children" : [ {
+        "name" : "test_modify_device_name_ip_manufacturer",
+        "uid" : "67059d56db200b24",
+        "parentUid" : "e29779a619dc29c66ec146016a8b6d8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029086505,
+          "stop" : 1578029088987,
+          "duration" : 2482
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e29779a619dc29c66ec146016a8b6d8a"
+    } ],
+    "uid" : "f634771c880f4ac841b19abc5857189e"
+  }, {
+    "name" : "新增组织架构的case",
+    "children" : [ {
+      "name" : "这是一个测试正常新增组织架构的case",
+      "children" : [ {
+        "name" : "test_normal_add_user",
+        "uid" : "147309cec11e7192",
+        "parentUid" : "bedd9c035bbeddd9a892c783573d565d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029113251,
+          "stop" : 1578029115131,
+          "duration" : 1880
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bedd9c035bbeddd9a892c783573d565d"
+    } ],
+    "uid" : "86338a3b93fc54ddfa272ac2de2a9046"
+  }, {
+    "name" : "成员管理,新增人员",
+    "children" : [ {
+      "name" : "这是一个测试正常新增用户的case",
+      "children" : [ {
+        "name" : "test_normal_add_user",
+        "uid" : "ce6b2a4904204ef7",
+        "parentUid" : "c4f3a09668f46ce706b6433b460d06ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578029121760,
+          "stop" : 1578029124378,
+          "duration" : 2618
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4f3a09668f46ce706b6433b460d06ea"
+    } ],
+    "uid" : "c31d69bcab1c803b5d2a8aae0169892c"
+  } ]
+}
